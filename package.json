@@ -1,6 +1,6 @@
 {
-  "name": "gulp-footer",
-  "version": "2.0.2",
+  "name": "gulp-footer-sec-fix",
+  "version": "2.0.3",
   "description": "Gulp extension to add footer to file(s) in the pipeline.",
   "main": "./index.js",
   "proxy": null,
@@ -54,11 +54,11 @@
     "lodash._reescape": "^3.0.0",
     "lodash._reevaluate": "^3.0.0",
     "lodash._reinterpolate": "^3.0.0",
-    "lodash.template": "^3.6.2",
+    "lodash.template": "^4.5.0",
     "map-stream": "0.0.7"
   },
   "devDependencies": {
-    "mocha": "*",
+    "mocha": "^8.2.1",
     "should": "*",
     "vinyl": "^0.5.3"
   }
