@@ -9,7 +9,7 @@ var footerPlugin = function(footerText, data) {
   return mapStream(function(file, cb){
     file.contents = Buffer.concat([
       file.contents,
-      new Buffer(template(footerText, Object.assign({file : file}, data)))
+      new Buffer.from(template(footerText, Object.assign({file : file}, data)))
     ]);
     cb(null, file);
   });

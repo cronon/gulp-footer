@@ -15,7 +15,7 @@ describe('gulp-footer', function() {
       path: './test/fixture/file.js',
       cwd: './test/',
       base: './test/fixture/',
-      contents: new Buffer(fileContent || '')
+      contents: Buffer.from(fileContent || '')
     });
   }
 
